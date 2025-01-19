@@ -14,7 +14,7 @@
 .disply-flex{
     display: flex;
 }
-
+ 
 /* Dark 02 color*/
 
 .text-gray{
@@ -46,7 +46,11 @@ main > section{
     margin-top: 130px;
 }
 
+.section-title{
+    font-size: 2.8rem;
+    font-weight: 700;
 
+}
 
 
 
@@ -120,10 +124,7 @@ main > section{
     margin-left: 130px;
     max-width: 530px;
 }
-.features-title{
-    font-size: 2.8rem;
 
-}
 .Text-primary{
     color: rgba(255, 144, 14, 1);
 }
