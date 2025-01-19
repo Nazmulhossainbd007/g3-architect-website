@@ -172,8 +172,25 @@ main > section{
 }
 
 
+/* sponsore section related styles*/
 
 
+.sponsore-info{
+    max-width: 540px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.sponsore-companies{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+
+}
+.sponsore-companies img{
+
+    filter: grayscale(100%);
+   
+}
 
 
 
@@ -188,8 +205,11 @@ main > section{
         flex-direction: column;
     }
 
-    .team-image-container,.facts-container{
+    .team-image-container,
+    .facts-container
+    .sponsore-companies{
         grid-template-columns: 1fr;
+
     }
 
 
@@ -197,6 +217,14 @@ main > section{
         justify-items: center;
         gap: 24px;
     }
+    .sponsore-companies{
+        justify-items: center;
+        gap: 50px;
+    }
+
+
+
+
 
     .our-features{
         margin-left: 20px;
@@ -211,6 +239,14 @@ main > section{
     .our-features{
         margin-left: 50px auto;
     }
+
+    .sponsore-companies, .facts-container{
+        grid-template-columns: repeat(2,1fr);
+        gap: 50px;
+        justify-items: center;
+    }
+
+
 }
 
 
