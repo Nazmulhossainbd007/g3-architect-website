@@ -133,6 +133,45 @@ main > section{
 
 }
 
+/* features section related styles*/
+ 
+#feature-section-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 50px;
+}
+
+
+
+
+.features{
+    gap: 100px;
+}
+
+.feature-card{
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+   
+}
+
+.feature-card ,.feature-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  
+}
+
+
+
+
+
+
+
+
+
+
 /* some fact Related Style*/
 
 .facts-container{
